@@ -3,7 +3,7 @@ class Disciplinas {
     Disciplinas proxima;
     Disciplinas anterior;
 
-    // cria objeto 'Disciplinas'
+    // criando objeto 'Disciplinas'
     public Disciplinas(String nome) {
         this.nome = nome;
         this.proxima = null;

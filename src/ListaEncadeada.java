@@ -20,7 +20,7 @@ public class ListaEncadeada {
             primeiro = novaDisciplina;
             ultimo = novaDisciplina;
         } else {
-            // O código a seguir adiciona 'novaDisciplina' ao final da lista e atualiza o 'último'
+            // adiciona 'novaDisciplina' ao final da lista e atualiza o 'último'
             novaDisciplina.anterior = ultimo;
             ultimo.proxima = novaDisciplina;
             ultimo = novaDisciplina;

@@ -16,7 +16,7 @@ public class ListaSequencial {
         this.tamanho = 0;
     }
 
-    //Avaliação de tamanho
+    //Avaliando tamanho para definir se 'estaVaziou' ou 'estaCheio'
     public boolean estaVazio(){
         return (tamanho == 0);
     }
@@ -45,7 +45,7 @@ public class ListaSequencial {
 
             elementos[tamanho] = novoAluno;
 
-            // Adicionar disciplinas ao aluno
+            // Adicionando disciplinas ao aluno
             String maisDisciplina;
             do {
                 System.out.println("Digite o nome da disciplina: ");
@@ -61,7 +61,7 @@ public class ListaSequencial {
         }while (continuarOperacao("Deseja Adicionar mais Alunos[S/N]: "));
     }
 
-    // Buscar Aluno pelo RGM
+    // Buscando Aluno pelo RGM
     public void buscarAluno(Scanner scanner){
         do {
             System.out.print("Digite o RGM do aluno a ser buscado: ");
@@ -125,7 +125,7 @@ public class ListaSequencial {
         }while (continuarOperacao("Deseja Remover mais Alunos[S/N]: "));
     }
 
-    //Funções "exibirAlunos" para exibir alunos
+    //Função "exibirAlunos" para exibir alunos
     public void exibirAlunos(){
         System.out.println("Lista de Alunos:");
         for (int i = 0; i < tamanho; i++) {

@@ -4,7 +4,7 @@ public class Alunos {
     String curso;
     ListaEncadeada disciplinas;
 
-    //cria objetos 'Alunos'
+    //criando objetos 'Alunos'
     public Alunos(String rgm, String nome, String curso) {
         this.rgm = rgm;
         this.nome = nome;
